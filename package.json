@@ -1,10 +1,11 @@
 {
-  "name": "homebridge-curl",
+  "name": "homebridge-rest-switch",
   "version": "1.0.0",
   "description": "Homebridge plugin to control devices via HTTP requests",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node -e \"require('./index.js')\"",
+    "prepublishOnly": "npm test"
   },
   "keywords": [
     "homebridge-plugin",

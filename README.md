@@ -1,4 +1,4 @@
-# homebridge-curl
+# homebridge-rest-switch
 
 A Homebridge plugin to control devices via HTTP requests. This plugin allows you to create HomeKit switches that trigger HTTP/HTTPS requests to control any device with a REST API.
 
@@ -14,10 +14,10 @@ A Homebridge plugin to control devices via HTTP requests. This plugin allows you
 ## Installation
 
 ```bash
-npm install -g homebridge-curl
+npm install -g homebridge-rest-switch
 ```
 
-Or install via Homebridge Config UI X by searching for "homebridge-curl".
+Or install via Homebridge Config UI X by searching for "homebridge-rest-switch".
 
 ## Configuration
 

@@ -9,7 +9,7 @@ module.exports = function (homebridge) {
   Service = homebridge.hap.Service;
   Characteristic = homebridge.hap.Characteristic;
   homebridge.registerAccessory(
-    "homebridge-curl",
+    "homebridge-rest-switch",
     "HttpSwitch",
     HttpSwitchAccessory
   );
